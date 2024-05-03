@@ -40,10 +40,22 @@ header{
     flex-direction: row;
     /* align-: center; */
     justify-content: center;
+    padding-top: 40px;
+}
+#home__content h2{
+    font-size: 45px;
+    color: var(--color-1);
+}
+#home__content button{
+    background: var(--color-1);
+    font-size: 20px;
+    padding: 10px;
+    color: var(--color-4);
+    border-style: none;
 }
 #home__content img{
     width: auto;
-    height: 500px;
+    height: 300px;
 }
 #contact{
     display: flex;

@@ -35,14 +35,19 @@ header{
     flex-direction: column;
     /* align-: center; */
 }
-.main__content .home__content{
+#home__content{
     display: flex;
     flex-direction: row;
     /* align-: center; */
-    justify-content: space-between;
+    justify-content: center;
+}
+#home__content img{
+    width: auto;
+    height: 500px;
 }
 #contact{
-
+    display: flex;
+    justify-content: center;
 }
 #contact .main__current__information {
     background-color: var(--color-5);

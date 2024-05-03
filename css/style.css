@@ -1,6 +1,7 @@
  @import url("variables.css");
 body,html{
     background-color: var(--color-2);
+    color: var(--color-4);
     font-family: 'Poppins', sans-serif;
     /* background: #1e1d2b; */
 }
@@ -26,5 +27,25 @@ header{
 }
 .nav .article_nav section a{
     color: var(--color-4);
-
+}
+.main{
+}
+.main__content{
+    display: flex;
+    flex-direction: column;
+    /* align-: center; */
+}
+.main__content .home__content{
+    display: flex;
+    flex-direction: row;
+    /* align-: center; */
+    justify-content: space-between;
+}
+/* .main__ .main__current__information{
+    display: flex;
+    flex-direction: column;
+} */
+.main__current__image img{
+    height: 400px;
+    width: ;
 }

@@ -1,4 +1,8 @@
-@import(variables.css)
-{
+ @import url("variables.css");
+body,html{
+    background-color: var(--color-3);
+    /* background: #1e1d2b; */
+}
+header{
     
 }

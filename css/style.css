@@ -41,11 +41,23 @@ header{
     /* align-: center; */
     justify-content: space-between;
 }
-#contact .main__current__information{
+#contact{
+
+}
+#contact .main__current__information {
     background-color: var(--color-5);
+    color: var(--color-2);
     height: 400px;
     width: 600px;
-    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+  }
+#contact .main__current__information button{
+    color: var(--color-4);
+    background-color: var(--color-1);
 }
 /* .main__ .main__current__information{
     display: flex;

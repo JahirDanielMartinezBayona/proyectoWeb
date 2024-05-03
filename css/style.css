@@ -41,11 +41,17 @@ header{
     /* align-: center; */
     justify-content: space-between;
 }
+#contact .main__current__information{
+    background-color: var(--color-5);
+    height: 400px;
+    width: 600px;
+    
+}
 /* .main__ .main__current__information{
     display: flex;
     flex-direction: column;
 } */
-.main__current__image img{
+/* .main__current__image img{
     height: 400px;
     width: ;
-}
+} */
